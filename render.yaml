@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: cesfam-api
+    env: python
+    buildCommand: ""
+    startCommand: uvicorn main:app --host=0.0.0.0 --port=10000
+    envVars:
+      - key: MONGO_URL
+        value: mongodb+srv://alqxeda23:<Zxcvbnm23>@cluster0.l429uki.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
