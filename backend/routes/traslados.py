@@ -1,7 +1,8 @@
 from fastapi import APIRouter, HTTPException
 from backend.database import db
 
-from models import traslado_serializer
+from backend.models import traslado_serializer
+
 from bson import ObjectId
 
 router = APIRouter()

@@ -1,8 +1,9 @@
 from fastapi import APIRouter, HTTPException, Body
-from models import LoginInput, ChoferOutput
+from backend.models import LoginInput, ChoferOutput
 from backend.database import db
 
-from models import traslado_serializer 
+from backend.models import traslado_serializer
+
 
 router = APIRouter()
 
